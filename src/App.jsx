@@ -12,7 +12,7 @@ function App() {
        <SkillsSection />
        <Certifications />
       <ProjectsSection />
-      <ContactSection />
+      <Agbajeisaac />
       <Footer />
     </div>
   );
