@@ -1,0 +1,55 @@
+/* src/components/HeroSection.css */
+
+.hero-container {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #e0f7fa; /* Light cyan background */
+}
+
+.hero-image {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 4px solid #00838f; /* Deep teal border */
+}
+
+.hero-name {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #006064; /* Dark cyan text */
+}
+
+.hero-title {
+  font-size: 1.5em;
+  color: #00acc1; /* Bright cyan */
+  margin-bottom: 10px;
+}
+
+.hero-description {
+  font-size: 1.1em;
+  max-width: 600px;
+  margin: 0 auto 20px auto;
+  color: #37474f; /* Slate gray for better contrast */
+}
+
+.hero-buttons {
+  margin-top: 20px;
+}
+
+.hero-btn {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #00bcd4; /* Cyan button */
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.hero-btn:hover {
+  background-color: #00838f; /* Darker cyan on hover */
+}

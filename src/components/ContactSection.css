@@ -1,0 +1,31 @@
+/* src/components/Contact.css */
+
+.contact-container {
+  padding: 2rem;
+  background: linear-gradient(135deg, #e0f7fa, #b2ebf2); /* Cyan gradient */
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #007b8f; /* Cyan-darker text */
+}
+
+.contact-info {
+  margin-top: 1rem;
+}
+
+.contact-link {
+  display: block;
+  margin: 0.5rem 0;
+  color: #007b8f;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+  color: #004d59; /* Darker cyan on hover */
+}
